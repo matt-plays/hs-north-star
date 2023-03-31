@@ -1,0 +1,133 @@
+/*
+================
+Global Color
+================
+*/
+:root {
+	--color-cobalt-100: #EBF5FF;
+  --color-cobalt-200: #C7E3FF;
+  --color-cobalt-300: #8DC1FC;
+  --color-cobalt-400: #5A9AFA;
+  --color-cobalt-500: #3B70F5;
+  --color-cobalt-600: #2745C2;
+  --color-cobalt-700: #1C2A8A;
+  --color-cobalt-800: #141D66;
+  --color-cobalt-900: #141546;
+  --color-cobalt-1000: #0E0E33;
+
+  --color-charcoal-100: #F9FAFA;
+  --color-charcoal-200: #F1F3F5;
+  --color-charcoal-300: #DFE6EB;
+  --color-charcoal-400: #C8D3DE;
+  --color-charcoal-500: #ABB9C7;
+  --color-charcoal-600: #7E8E9E;
+  --color-charcoal-700: #556575;
+  --color-charcoal-800: #405261;
+  --color-charcoal-900: #314351;
+  --color-charcoal-1000: #253642;
+  --color-charcoal-1100: #1D2B36;
+  --color-charcoal-1200: #131B24;
+
+  --color-accent-red: #FF6047;
+  --color-accent-orange: #FF8B33;
+  --color-accent-yellow: #FFB83D;
+  --color-accent-green: #56F09E;
+  --color-accent-slate: #47C2FF;
+  --color-accent-cobalt: #3377FF;
+  --color-accent-purple: #C285FF;
+  --color-accent-magenta: #FF5CAA;
+
+/*
+================
+Functional Styles
+================
+*/
+  --navBackgroundColor:var(--color-cobalt-800);
+
+  --linkDefault:var(--color-cobalt-600);
+  --linkHover:var(--color-cobalt-700);
+  --linkPressed:var(--color-cobalt-700);
+  --linkDisabled:var(--color-charcoal-500);
+
+  --textHeadline:var(--color-charcoal-1200);
+  --textDark:var(--color-charcoal-900); 
+  --textDefault:var(--color-charcoal-800); 
+  --textLight:var(--color-charcoal-700); 
+}
+/*
+================
+Nav
+================
+*/
+
+#header {
+  background: var(--navBackgroundColor) !important; 
+}
+
+.nav-main>li>a,.nav-secondary>li>a,
+.search-trigger {
+  color: var(--color-cobalt-300) !important;
+}
+
+.nav-main>li>a.active,
+.nav-main>li>a:focus,
+.nav-main>li>a:hover,
+.nav-secondary>li>a.active,
+.nav-secondary>li>a:focus,
+.nav-secondary>li>a:hover {
+  color: white !important;
+}
+
+#header .c-StatusDot {
+  box-shadow: var(--navBackgroundColor) 0 0 0 3px !important; 
+}
+
+#header .c-Avatar__cropBorder {
+  border-color: var(--navBackgroundColor) !important;
+}
+
+.c-notification-dropdown__indicator{
+  background-color: var(--color-accent-magenta) !important;
+  border: 2px solid var(--navBackgroundColor) !important;
+}
+
+/*
+================
+Sidebar
+================
+*/
+
+.hsds-react .epyycK {
+  background: #f1f3f5 !important; /* charcoal-200 */
+}
+
+/* list item */
+.hsds-react .cZLpuj.is-active,
+.hsds-react .cZLpuj.is-active .Itemcss__IconUI-sc-hu4jzx-0,
+.hsds-react .cZLpuj.is-active .Itemcss__CountUI-sc-hu4jzx-3 {
+  color: var(--color-cobalt-600) !important;
+}
+
+/*
+================
+Buttons
+================
+*/
+
+.c-Button.is-theme-blue.is-size-lg.is-style-filled {
+    --buttonMainColor: var(--color-cobalt-600) !important;
+    --buttonBackgroundColor: var(--color-cobalt-600) !important;
+    --buttonBackgroundColorHover: var(--color-cobalt-700) !important;
+    --buttonBorderColor: var(--color-cobalt-700) !important;
+    --buttonBorderColorHover: var(--color-cobalt-600) !important;
+}
+
+/*
+================
+Conversation, text links
+================
+*/
+
+.hsds-react .ctYLIS a {
+  color: #2a55cc !important; /* cobalt-500 */
+}
