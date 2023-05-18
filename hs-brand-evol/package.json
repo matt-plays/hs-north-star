@@ -1,0 +1,21 @@
+{
+  "name": "hs-brand-evol",
+  "displayName": "HS Brand Evol",
+  "description": "Help Scout brand color theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Help Scout VSCode Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Help Scout VSCode Theme-color-theme.json"
+      }
+    ]
+  }
+}

@@ -4,7 +4,8 @@ Global Color
 ================
 */
 :root {
-	--color-cobalt-100: #EBF5FF;
+
+  --color-cobalt-100: #EBF5FF;
   --color-cobalt-200: #C7E3FF;
   --color-cobalt-300: #8DC1FC;
   --color-cobalt-400: #5A9AFA;
@@ -14,6 +15,91 @@ Global Color
   --color-cobalt-800: #141D66;
   --color-cobalt-900: #141546;
   --color-cobalt-1000: #0E0E33;
+  --color-accent-cobalt: #3377FF;
+
+  --color-red-100: #FFF0E8;
+  --color-red-200: #FEDFD5;
+  --color-red-300: #FFBCAD;
+  --color-red-400: #FA7A64;
+  --color-red-500: #E54A32;
+  --color-red-600: #B83525;
+  --color-red-700: #822824;
+  --color-red-800: #592728;
+  --color-red-900: #402629;
+  --color-red-1000: #2B2123;
+  --color-red-accent: #FF6047;
+  
+	--color-orange-100: #FFF2E8;
+  --color-orange-200: #FFE4D1;
+  --color-orange-300: #FAC096;
+  --color-orange-400: #F5964E;
+  --color-orange-500: #D67022;
+  --color-orange-600: #A35214;
+  --color-orange-700: #7A4518;
+  --color-orange-800: #573B23;
+  --color-orange-900: #3D2F22;
+  --color-orange-1000: #2B241D;
+  --color-orange-accent: #FF8B33;
+
+  --color-yellow-100: #FFF6E5;
+  --color-yellow-200: #FFEECC;
+  --color-yellow-300: #FFDD99;
+  --color-yellow-400: #FABF5A;
+  --color-yellow-500: #E09C24;
+  --color-yellow-600: #AC771B;
+  --color-yellow-700: #7A581D;
+  --color-yellow-800: #574323;
+  --color-yellow-900: #403521;
+  --color-yellow-1000: #2B261D;
+  --color-accent-yellow: #FFB83D;
+
+  --color-green-100: #F2FFF0;
+  --color-green-200: #E0FCDE;
+  --color-green-300: #B9EDBD;
+  --color-green-400: #83DB9C;
+  --color-green-500: #47C47D;
+  --color-green-600: #379965;
+  --color-green-700: #2A7550;
+  --color-green-800: #2E5940;
+  --color-green-900: #283B2D;
+  --color-green-1000: #222923;
+  --color-accent-green: #56F09E;
+
+  --color-slate-100: #F2F9FC;
+  --color-slate-200: #E1EEF5;
+  --color-slate-300: #CCDEE8;
+  --color-slate-400: #A9C4D4;
+  --color-slate-500: #82A7BA;
+  --color-slate-600: #658B9E;
+  --color-slate-700: #486878;
+  --color-slate-800: #344852;
+  --color-slate-900: #283338;
+  --color-slate-1000: #1F2426;
+  --color-accent-slate: #47C2FF;
+
+  --color-purple-100: #F9F2FF;
+  --color-purple-200: #F2E5FF;
+  --color-purple-300: #D7BAF5;
+  --color-purple-400: #AD82D8;
+  --color-purple-500: #9163BF;
+  --color-purple-600: #774BA3;
+  --color-purple-700: #5D407A;
+  --color-purple-800: #48335C;
+  --color-purple-900: #31253D;
+  --color-purple-1000: #271F2E;
+  --color-accent-purple: #C285FF;
+
+  --color-magenta-100: #FFF2F4;
+  --color-magenta-200: #FFE5EA;
+  --color-magenta-300: #FFC7D3;
+  --color-magenta-400: #E5859F;
+  --color-magenta-500: #BF5878;
+  --color-magenta-600: #A34B6B;
+  --color-magenta-700: #863E5C;
+  --color-magenta-800: #5E3146;
+  --color-magenta-900: #3D2531;
+  --color-magenta-1000: #2E2126;
+  --color-accent-magenta: #FF5CAA;
 
   --color-charcoal-100: #F9FAFA;
   --color-charcoal-200: #F1F3F5;
@@ -28,14 +114,18 @@ Global Color
   --color-charcoal-1100: #1D2B36;
   --color-charcoal-1200: #131B24;
 
-  --color-accent-red: #FF6047;
-  --color-accent-orange: #FF8B33;
-  --color-accent-yellow: #FFB83D;
-  --color-accent-green: #56F09E;
-  --color-accent-slate: #47C2FF;
-  --color-accent-cobalt: #3377FF;
-  --color-accent-purple: #C285FF;
-  --color-accent-magenta: #FF5CAA;
+  --color-clay-100: #FAF8F7;
+  --color-clay-200: #F5F2F0;
+  --color-clay-300: #EDE8E6;
+  --color-clay-400: #DED5D1;
+  --color-clay-500: #C2B4AC;
+  --color-clay-600: #9E8F88;
+  --color-clay-700: #8A7B74;
+  --color-clay-800: #756963;
+  --color-clay-900: #574F4B;
+  --color-clay-1000: #4A4441;
+  --color-clay-1100: #33302E;
+  --color-clay-1200: #262423;
 
 /*
 ================
